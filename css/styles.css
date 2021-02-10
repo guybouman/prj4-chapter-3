@@ -1,0 +1,30 @@
+body{
+	background-color: #242526; 
+}
+
+h2, h1, p{
+	color: white;
+	text-align: center;
+}
+
+.creator h3{
+	color: white;
+ text-transform: uppercase;
+}
+
+#article-title{
+  font-family: cursive;
+text-transform: capitalize;
+}
+
+.title {
+  color: teal;
+   border: solid 3px white;
+     border-radius: 15px;
+
+}
+
+.bold {
+  font-weight: bold;
+}
+
