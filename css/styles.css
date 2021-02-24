@@ -12,6 +12,10 @@ h2, h1, p{
  text-transform: uppercase;
 }
 
+.creator{
+	border: solid 3px white;
+     border-radius: 16px;
+}
 #article-title{
   font-family: cursive;
 text-transform: capitalize;
