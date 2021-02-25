@@ -44,6 +44,8 @@ text-transform: capitalize;
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
+  height: 20%;
+  width: 100%;
 }
 
 .title {
