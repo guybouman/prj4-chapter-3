@@ -32,14 +32,18 @@ p {
 	border: solid 3px white;
      border-radius: 16px;
 }
+
 #article-title{
   font-family: cursive;
 text-transform: capitalize;
-background-image: url(../images/background.jpg);
+
+}
+
+.article-background{
+  background-image: url(../images/background.jpg);
   background-size: cover;
   background-position: bottom center;
-  height: 700px;
-  width: 100%;
+  background-repeat: no-repeat;
 }
 
 .title {
