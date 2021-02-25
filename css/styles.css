@@ -2,7 +2,7 @@
 margin: 0;
 padding: 0;
 border:0;
-font-size: 100%;
+
 }
 
 body{
@@ -21,6 +21,7 @@ p {
   margin-left:200px;
   margin-right: 200px;
   padding: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .creator h3{
