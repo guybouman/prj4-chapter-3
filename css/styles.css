@@ -1,16 +1,31 @@
-body{
-	background-color: #242526; 
+* {
+margin: 0;
+padding: 0;
+border:0;
+font-size: 100%;
 }
 
-h2, h1, p{
-	color: white;
+body{
+	background-color: #242526; 
+
+}
+
+h2, h1{
+	color: grey;
 	text-align: center;
 }
 
+p {
+  color: grey;
+  text-align: center;
+  padding: 20px;
+  margin:  20px;
+}
 .creator h3{
 	color: white;
  text-transform: uppercase;
 }
+
 
 .creator{
 	border: solid 3px white;
