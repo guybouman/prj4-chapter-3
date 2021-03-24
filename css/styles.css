@@ -15,7 +15,7 @@ header {
 margin-bottom: 65px;
 text-align: center;
 color: white;
-background-color: dimgrey; 
+background-color: darkgoldenrod; 
 }
 
 #article-title{
@@ -55,7 +55,7 @@ margin-bottom: 20px;
 
 
 .Footer { 
-color: white;
+color: grey;
 text-align: center;
 margin-top: 50px;
 }
