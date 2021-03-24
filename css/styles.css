@@ -24,6 +24,13 @@ text-transform: capitalize;
 
 }
 
+.Bar {
+margin-top: 20px;
+text-align: center;
+color: beige;
+font-size: 17px;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -34,14 +41,14 @@ text-align: center;
 }
 
 
-.Description {
+.Explanation {
 color: white;
 font-size: 15px;
 margin-bottom: 50px; 
 }
 
 
-.Home { 
+.Return { 
 margin-left: 280px;
 margin-bottom: 20px; 
 }
