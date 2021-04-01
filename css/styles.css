@@ -205,5 +205,34 @@ margin-top: 10px;}
 }
 
 .f-slider-text{
+display: flex;
+flex-direction: column;
+margin-right: auto;
+}
 
+.f-slider-text strong{
+	color:#333333;
+	font-size: 3rem;
+	line-height: 55px;
+	margin-top: 10px;
+	letter-spacing: 1px;
+
+}
+
+.f-slider-test span{
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-weight: 500;
+	color: #666666;
+	font-size: 1.2rem;
+
+}
+
+.f-slider-btn{
+	width:170px;
+	height: 40px:
+	display;flex: 
+	justify-content:center;
+	align-items: center;
+	color:#ffffff;
 }
