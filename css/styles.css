@@ -1,61 +1,183 @@
-* {
-margin: 0;
-padding: 0;
-border:0;
+@charset "utf-8";
 
+/*basic styles for everywhere */
+body { font-family: 'Fira Sans', sans-serif;
+	color: #F3CCE0;
+	background-color: #122237; 
+	}  
+
+html, body {
+    overflow-x: hidden;
 }
 
 
-body {
-  background-image: url(../images/background.jpg);
-  margin-top: 25px;
+h6 { text-align: center;
+	font-weight: bolder; }
+
+h5 {text-align: center}
+ 
+a { color: #00A1EF;}
+
+/*background image index */
+.bg-no-overlay {
+    background: url("../images/BANNERLALALA.2jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 750px;
+    padding-top: 50px;
 }
 
-header { 
-margin-bottom: 65px;
+#jumbotron {color:#122237;
+			text-align: center;
+			opacity: 0.90;
+			}
+
+#jumbo {padding-top: 300px;
+		padding-left: 40px;
+		}
+
+.btn {background-color: #F5CCE0 !important;
+	color: #122237 !important;}
+
+
+/* index middle part */
+
+h3 { text-align: center;}
+
+.container {padding: 20px; }
+
+
+/*about us page*/
+
+.bg2 {
+/* The image used */
+background-image: url("../images/bannernew.png") ;
+
+/* Full height */
+height: 40%;
+
+/* Center and scale the image nicely */
+background-position:top;
+background-repeat: no-repeat;
+background-size: auto;
+} 
+
+h1 {text-align: center;
+	color: #122237;
+padding-top: 15px;}
+
+.whoarewe {padding-top: 15px;
+			text-align: left;}
+
+.aboutus {text-align: left}
+
+
+.thisisthecommunity {padding-top: 15px;
+                    text-align: left;
+display:block;
+            margin: auto;}
+
+.designjustifications {padding-top: 15px;
+                    text-align: left;}
+
+.containercommunity{padding: 0 50px;}
+
+#communityimg {align-content: center;
+			padding-top: 20px; 
+			padding-bottom: 20px; 
+			width:300px;
+            margin: 0 auto;
+             display: flex;
+            align-items: center;}
+
+#aboutpanda {margin-left: 120px;
+			padding-top: 40px; 
+			padding-bottom: 20px; 
+			width:300px;}
+
+#moonmoxiead {margin-left: 180px;
+			margin-top: 60px;}
+
+
+/* navbar */
+
+#logonavbar {width: 180px;
+        text-align:right;}
+
+.navbar .nav-item {padding: 10px 10px 10px 70px;}
+
+.navbar .nav-link {font-size: 15px;}
+
+nav .navbar-nav li a{
+  color: #122237 !important;
+  }
+
+/* Footer */
+
+h5 { margin-top:30px;}
+
+.list-unstyled {text-align: center;}
+
+.page-footer { background-color: white;
+				color: #122237;}
+
+.footertext { line-height: 1.4;
 text-align: center;
-color: white;
-background-color: darkgoldenrod; 
+width:65%;
+display: block;
+margin: 0 auto;
+margin-top: 10px;}
+
+.designjustifications {text-align: center;}
+#panda { width: 250px; }
+
+#pandaback {width: 180px;
+		text-align: center;
 }
 
-#article-title{
-  font-family: cursive;
-text-transform: capitalize;
-
-}
-
-.Bar {
-margin-top: 20px;
-text-align: center;
-color: beige;
-font-size: 17px;
-}
-
-.bold {
-  font-weight: bold;
-}
+#logo {width: 150px;
+        text-align:left;}
 
 
-.row {
-text-align: center;  
-}
+/* Contact page: Contact form */
 
+	/* Style inputs with type="text", select elements and textareas */
+	input[type=text], select, textarea {
+	  width: 100%; /* Full width */
+	  padding: 20px; /* Some padding */  
+	  border: 1px solid #ccc; /* Gray border */
+	  border-radius: 4px; /* Rounded borders */
+	  box-sizing: border-box; /* Make sure that padding and width stays in place */
+	  margin-top: 6px; /* Add a top margin */
+	  margin-bottom: 16px; /* Bottom margin */
+	  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	}
 
-.Explanation {
-color: white;
-font-size: 15px;
-margin-bottom: 50px; 
-}
+	/* Style the submit button with a specific background color etc */
+	input[type=submit] {
+	  background-color: #976CF1;
+	  color: white;
+	  padding: 12px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
 
+	/* When moving the mouse over the submit button, add a pink colorr */
+	input[type=submit]:hover {
+	  background-color: #8A48FF;
+	}
 
-.Return { 
-margin-left: 280px;
-margin-bottom: 20px; 
-}
+/* Contact page: social media */
 
+	#socialmedia {
+		
+	text-align: center;
+		
+        }
+    #socialmedia2 {
 
-.Footer { 
-color: grey;
-text-align: center;
-margin-top: 50px;
-}
+        display: flex;
+        align-items: center;
+            }
