@@ -195,3 +195,15 @@ margin-top: 10px;}
 .f-slider-1{
 	background-image: url(../images/tequila.jpg);
 }
+
+.slider-text-container{
+	width:80%;
+	height:90%;
+	display:flex;
+	align-items: center;
+
+}
+
+.f-slider-text{
+
+}
